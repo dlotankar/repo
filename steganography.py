@@ -1,10 +1,11 @@
 from tkinter import *
 from tkinter import messagebox
 from argparse import FileType
-#from stegano import lsb
+from stegano import lsb
 from tkinter.filedialog import *
 from PIL import ImageTk,Image
-#from  stegano.lsbset import generators
+from  stegano.lsbset import generators
+import request
 from stegano import lsb
 from tkinter import font as tkFont
 from stegano import exifHeader as aaa
